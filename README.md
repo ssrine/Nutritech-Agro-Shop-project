@@ -32,7 +32,7 @@ pip install django-cors-headers
 ```bash
 python3 manage.py migrate
 ```
-## Step 2: Run Django Server
+### Step 2: Run Django Server
 Now that the environment is set up, run the Django development server:
 
 ```bash
