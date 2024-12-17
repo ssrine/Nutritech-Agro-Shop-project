@@ -13,21 +13,12 @@ Ensure you have the following installed on your system:
 
 ## 1. Running Django Backend
 ### Step 1: Install Dependencies
-First, navigate to your backend directory (nutritech_backend) and set up your virtual environment to isolate the dependencies:
+First:
 
 ```bash
 cd nutritech_backend
-python3 -m venv venv  # Create a virtual environment
-source venv/bin/activate  # Activate the virtual environment (for Linux/macOS)
-venv\Scripts\activate  # Activate the virtual environment (for Windows)
 ```
-### Step 2: Install Python Requirements
-Now, install the required Python packages listed in the requirements.txt file (if you have one):
-
-```bash
-pip install -r requirements.txt
-```
-If you don't have a requirements.txt file, you'll need to install Django and other dependencies manually:
+you'll need to install Django and other dependencies manually:
 
 ```bash
 pip install django
@@ -35,15 +26,13 @@ pip install djangorestframework
 pip install psycopg2  
 pip install django-cors-headers  
 ```
-## Step 3: Set Up Database (if necessary)
-If you're using SQLite (as shown in your directory structure), you don't need any additional setup. However, if you're using another database (like PostgreSQL), you'll need to configure it in the settings.py file.
 
 ### Run migrations to set up the database:
 
 ```bash
 python3 manage.py migrate
 ```
-## Step 4: Run Django Server
+## Step 2: Run Django Server
 Now that the environment is set up, run the Django development server:
 
 ```bash
@@ -73,5 +62,5 @@ This will start the React development server, and you should be able to access t
 
 
 # 4. Conclusion
-Backend: Django handles the business logic, API endpoints, and database operations.
-Frontend: React handles the UI and user interactions, consuming the backend APIs.
+- Backend: Django handles the business logic, API endpoints, and database operations.
+= Frontend: React handles the UI and user interactions, consuming the backend APIs.
