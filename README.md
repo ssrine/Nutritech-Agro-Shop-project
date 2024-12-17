@@ -33,11 +33,11 @@ If you don't have a requirements.txt file, you'll need to install Django and oth
 ```bash
 Copier le code
 pip install django
-pip install djangorestframework  # If using Django Rest Framework
-pip install psycopg2  # If you're using PostgreSQL
-pip install django-cors-headers  # If you need to handle CORS for API calls from React
-Step 3: Set Up Database (if necessary)
+pip install djangorestframework 
+pip install psycopg2  
+pip install django-cors-headers  
 ```
+## Step 3: Set Up Database (if necessary)
 If you're using SQLite (as shown in your directory structure), you don't need any additional setup. However, if you're using another database (like PostgreSQL), you'll need to configure it in the settings.py file.
 
 ### Run migrations to set up the database:
@@ -45,7 +45,7 @@ If you're using SQLite (as shown in your directory structure), you don't need an
 ```bash
 python3 manage.py migrate
 ```
-## Step 3: Run Django Server
+## Step 4: Run Django Server
 Now that the environment is set up, run the Django development server:
 
 ```bash
