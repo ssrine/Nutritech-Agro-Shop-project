@@ -68,9 +68,9 @@ npm run dev
 This will start the React development server, and you should be able to access the frontend at http://localhost:PORT/.
 
 ## 3. Accessing Both Servers Together
-Django Backend: Running at http://127.0.0.1:8000/
-React Frontend: Running at http://localhost:PORT/
-When developing locally, you can make API calls from the React frontend to the Django backend. For example, if you want to fetch a list of products from the Django API, your React app can make a request to http://127.0.0.1:8000/api/products/ (assuming you’ve set up a REST API endpoint at this URL).
+- Django Backend: Running at http://127.0.0.1:8000/
+- React Frontend: Running at http://localhost:PORT/
+
 
 # 4. Conclusion
 Backend: Django handles the business logic, API endpoints, and database operations.
