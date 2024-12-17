@@ -63,4 +63,4 @@ This will start the React development server, and you should be able to access t
 
 # 4. Conclusion
 - Backend: Django handles the business logic, API endpoints, and database operations.
-= Frontend: React handles the UI and user interactions, consuming the backend APIs.
+- Frontend: React handles the UI and user interactions, consuming the backend APIs.
