@@ -25,13 +25,11 @@ venv\Scripts\activate  # Activate the virtual environment (for Windows)
 Now, install the required Python packages listed in the requirements.txt file (if you have one):
 
 ```bash
-Copier le code
 pip install -r requirements.txt
 ```
 If you don't have a requirements.txt file, you'll need to install Django and other dependencies manually:
 
 ```bash
-Copier le code
 pip install django
 pip install djangorestframework 
 pip install psycopg2  
